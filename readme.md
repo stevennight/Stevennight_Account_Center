@@ -1,5 +1,8 @@
 # Stevennight Account Center -- Stevennight 账户中心
 
+[![][license badge]](LICENSE)
+[![][issues badge]][issues link]
+
 [TOC]
 
 ## 简介
@@ -113,3 +116,12 @@ php artisan migrate
 2017/02/17
 
 初次完整更新好了。包括这个readme。
+
+
+
+## License
+
+[GNU General Public License, version 3](LICENSE)
+
+[issues link]: https://github.com/stevennight/Stevennight_Account_Center/issues
+
