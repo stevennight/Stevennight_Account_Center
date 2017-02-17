@@ -116,4 +116,4 @@ php artisan migrate
 
 ## License
 
-[GNU General Public License, version 3](LICENSE)
+[GNU General Public License, version 3](license)
