@@ -105,3 +105,11 @@ php artisan migrate
 - redirect: 进行回调给客户端的一个链接。任何可用的链接都可以，但是千万不要忘记给予一个{authcode}，这个将是给客户端传递一个auth code的重要参数！
 - created_at: 可留空。暂时无用。
 - updated_at: 可留空。暂时无用。
+
+
+
+## 更新日志
+
+2017/02/17
+
+初次完整更新好了。包括这个readme。
