@@ -123,5 +123,5 @@ php artisan migrate
 
 [GNU General Public License, version 3](LICENSE)
 
-[issues link]: https://github.com/stevennight/Stevennight_Account_Center/issues
+[issues link]: https://github.com//stevennight/Stevennight_Account_Center/issues
 
