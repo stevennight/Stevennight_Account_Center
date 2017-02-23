@@ -20,8 +20,13 @@ class Functions{
         if($userinfo == null){
             return false;
         }
-        //更新session 的用户信息   renew the information of member
 
+        if($userinfo->baned == 1){
+            session()->forget('member');
+            return;
+        }
+
+        //更新session 的用户信息   renew the information of member
         $member = [
             'userid' => $userinfo->id,
             'username' => $userinfo->username,

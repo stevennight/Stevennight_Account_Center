@@ -9,16 +9,19 @@ class CreateResetPasswordToken extends Migration
     /**
      * Run the migrations.
      *
+     * version: 1.0
      * @return void
      */
     public function up()
     {
-        Schema::create('reset_password_token', function (Blueprint $table) {
-            $table->increments('id');
-            $table->integer('userid');
-            $table->string('token',64);
-            $table->string('expires_at',255);
-        });
+        if(!Schema::hasTable('reset_password_token')){
+            Schema::create('reset_password_token', function (Blueprint $table) {
+                $table->increments('id');
+                $table->integer('userid');
+                $table->string('token',64);
+                $table->string('expires_at',255);
+            });
+        }
     }
 
     /**
@@ -28,6 +31,6 @@ class CreateResetPasswordToken extends Migration
      */
     public function down()
     {
-        Schema::drop('reset_password_token');
+
     }
 }
