@@ -11,8 +11,8 @@
     <div class="row">
         <form class="blue lighten-4 col s10 offset-s1 z-depth-1" method="post" enctype="multipart/form-data" >
             @if(count($errors))
-                <div class="card blue lighten-2 z-depth-2">
-                    <div class="card-content red-text">
+                <div class="card pink accent-2 z-depth-2">
+                    <div class="card-content white-text">
                         <li>{{ $errors->first() }}</li>
                     </div>
                 </div>

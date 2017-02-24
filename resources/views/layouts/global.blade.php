@@ -25,8 +25,8 @@
 		</style>
 	</head>
 
-	<body class="blue-grey lighten-4" id="body">
-		<nav class="blue lighten-2 z-depth-4">
+	<body class="blue lighten-5" id="body">
+		<nav class="blue darken-2 z-depth-4">
 			<div class="nav-wrapper">
 				<a href="#" class="brand-logo"></a>
 				<ul class="left hide-on-med-and-down">
@@ -54,7 +54,7 @@
 				@show
 		</div>
 
-		<footer class="blue lighten-2 z-depth-4 page-footer">
+		<footer class="blue darken-2 page-footer">
 			<div class="container">
 				<div class="row">
 					<div class="col l6 s12">

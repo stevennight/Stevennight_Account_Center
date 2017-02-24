@@ -11,12 +11,12 @@
     </div>
     <div class="row">
         <form class="blue lighten-4 col s10 offset-s1 z-depth-5" method="post" action="">
-            <div class="card blue lighten-2 z-depth-2 ">
+            <div class="card {{ count($errors)?'pink':'blue' }} accent-2 z-depth-2 ">
                 <div class="card-content white-text">
                     <span class="card-title">{{ trans('view.resetPassword.tips_title') }}</span>
                     <p>
                     @if(count($errors))
-                        <li class="red-text text-accent-4" style="font-weight: bolder">{{ $errors->first() }}</li>
+                        <li class="" style="font-weight: bolder">{{ $errors->first() }}</li>
                         @else
                         {{ trans('view.resetPassword.tips_tips') }}
                         @endif

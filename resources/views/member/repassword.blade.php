@@ -14,17 +14,17 @@
         <form class="blue lighten-4 col s10 offset-s1 z-depth-1" method="post">
 
             @if(count($errors))
-                <div class="card blue lighten-2 z-depth-2">
-                    <div class="card-content red-text">
+                <div class="card pink accent-2 z-depth-2">
+                    <div class="card-content white-text">
                         <li>{{ $errors->first() }}</li>
                     </div>
                 </div>
             @endif
 
             {{ csrf_field() }}
+            <div class="row">
 
-            //头像
-
+            </div>
             <div class="row">
                 <div class="input-field col s10 offset-s1">
                     <input id="icon_prefix" type="password" name="oldpass" class="validate">
